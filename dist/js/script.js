@@ -107,6 +107,9 @@
       thisProduct.priceElem = thisProduct.element.querySelector(
         select.menuProduct.priceElem
       );
+      thisProduct.imageWraper = thisProduct.element.querySelector(
+        select.menuProduct.imageWrapper
+      );
     }
 
     initAccordion() {
@@ -173,6 +176,7 @@
           // determine option value, e.g. optionId = 'olives', option = { label: 'Olives', price: 2, default: true }
           const option = param.options[optionId];
           console.log(optionId, option);
+
           if (formData[paramId] && formData[paramId].includes(optionId)) {
             if (option.default !== true) {
               price += option.price;
@@ -180,6 +184,18 @@
           } else {
             if (option.default == true) {
               price -= option.price;
+            }
+          }
+
+          const image = thisProduct.imageWraper.querySelector(
+            '.' + paramId + '-' + optionId
+          );
+          console.log('image:', image);
+          if (image) {
+            if (formData[paramId] && formData[paramId].includes(optionId)) {
+              image.classList.add(classNames.menuProduct.imageVisible);
+            } else {
+              image.classList.remove(classNames.menuProduct.imageVisible);
             }
           }
         }
