@@ -204,72 +204,31 @@
   ],
   "orders": [
     {
-      "address": "241",
-      "phone": "241",
-      "totalPrice": 38,
-      "subtotalPrice": 18,
-      "totalNumber": 2,
+      "address": "dfasf",
+      "phone": "532532",
+      "totalPrice": 101,
+      "subtotalPrice": 81,
+      "totalNumber": 9,
       "deliveryFee": 20,
       "products": [
         {
           "id": "cake",
           "name": "Zio Stefano's Doughnut",
-          "amount": 1,
+          "amount": 5,
           "priceSingle": 9,
-          "price": 9,
+          "price": 45,
           "params": {}
         },
         {
-          "id": "breakfast",
-          "name": "Zia Giulia's Breakfast",
-          "amount": 1,
+          "id": "cake",
+          "name": "Zio Stefano's Doughnut",
+          "amount": 4,
           "priceSingle": 9,
-          "price": 9,
-          "params": {
-            "coffee": {
-              "label": "Coffee type",
-              "options": {
-                "latte": "Latte"
-              }
-            }
-          }
+          "price": 36,
+          "params": {}
         }
       ],
       "id": 1
-    },
-    {
-      "address": "241",
-      "phone": "241",
-      "totalPrice": 38,
-      "subtotalPrice": 18,
-      "totalNumber": 2,
-      "deliveryFee": 20,
-      "products": [
-        {
-          "id": "cake",
-          "name": "Zio Stefano's Doughnut",
-          "amount": 1,
-          "priceSingle": 9,
-          "price": 9,
-          "params": {}
-        },
-        {
-          "id": "breakfast",
-          "name": "Zia Giulia's Breakfast",
-          "amount": 1,
-          "priceSingle": 9,
-          "price": 9,
-          "params": {
-            "coffee": {
-              "label": "Coffee type",
-              "options": {
-                "latte": "Latte"
-              }
-            }
-          }
-        }
-      ],
-      "id": 2
     }
   ]
 }
