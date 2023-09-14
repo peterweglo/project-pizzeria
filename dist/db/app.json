@@ -6,7 +6,9 @@
       "name": "Zio Stefano's Doughnut",
       "price": 9,
       "description": "Treat yourself with this soft, freshly baked cookie. The recipe has been handed down from generation to generation in our family and it has won us several first place prizes in local competitions.",
-      "images": ["<img class=\"active\" src=\"images/doughnut.svg\">"]
+      "images": [
+        "<img class=\"active\" src=\"images/doughnut.svg\">"
+      ]
     },
     {
       "id": "breakfast",
@@ -14,7 +16,9 @@
       "name": "Zia Giulia's Breakfast",
       "price": 9,
       "description": "There's no better way to start your day than indulging yourself with a cup of fresh Italian coffee and crispy waffels. Made just for you on the spot, this breakfast combo has been our guests' favorite for over 50 years.",
-      "images": ["<img class=\"active\" src=\"images/breakfast.svg\">"],
+      "images": [
+        "<img class=\"active\" src=\"images/breakfast.svg\">"
+      ],
       "params": {
         "coffee": {
           "label": "Coffee type",
@@ -198,8 +202,122 @@
       }
     }
   ],
-  "orders": [],
-
+  "orders": [
+    {
+      "address": "",
+      "phone": "",
+      "totalPrice": 47,
+      "subtotalPrice": 27,
+      "totalNumber": 3,
+      "deliveryFee": 20,
+      "products": [
+        {
+          "id": "cake",
+          "name": "Zio Stefano's Doughnut",
+          "amount": 3,
+          "priceSingle": 9,
+          "price": 27,
+          "params": {}
+        }
+      ],
+      "id": 1
+    },
+    {
+      "address": "",
+      "phone": "",
+      "totalPrice": 47,
+      "subtotalPrice": 27,
+      "totalNumber": 3,
+      "deliveryFee": 20,
+      "products": [
+        {
+          "id": "cake",
+          "name": "Zio Stefano's Doughnut",
+          "amount": 3,
+          "priceSingle": 9,
+          "price": 27,
+          "params": {}
+        }
+      ],
+      "id": 2
+    },
+    {
+      "address": "",
+      "phone": "",
+      "totalPrice": 47,
+      "subtotalPrice": 27,
+      "totalNumber": 3,
+      "deliveryFee": 20,
+      "products": [
+        {
+          "id": "cake",
+          "name": "Zio Stefano's Doughnut",
+          "amount": 3,
+          "priceSingle": 9,
+          "price": 27,
+          "params": {}
+        }
+      ],
+      "id": 3
+    },
+    {
+      "address": "",
+      "phone": "",
+      "totalPrice": 47,
+      "subtotalPrice": 27,
+      "totalNumber": 3,
+      "deliveryFee": 20,
+      "products": [
+        {
+          "id": "cake",
+          "name": "Zio Stefano's Doughnut",
+          "amount": 3,
+          "priceSingle": 9,
+          "price": 27,
+          "params": {}
+        }
+      ],
+      "id": 4
+    },
+    {
+      "address": "",
+      "phone": "",
+      "totalPrice": 47,
+      "subtotalPrice": 27,
+      "totalNumber": 3,
+      "deliveryFee": 20,
+      "products": [
+        {
+          "id": "cake",
+          "name": "Zio Stefano's Doughnut",
+          "amount": 3,
+          "priceSingle": 9,
+          "price": 27,
+          "params": {}
+        }
+      ],
+      "id": 5
+    },
+    {
+      "address": "",
+      "phone": "",
+      "totalPrice": 47,
+      "subtotalPrice": 27,
+      "totalNumber": 3,
+      "deliveryFee": 20,
+      "products": [
+        {
+          "id": "cake",
+          "name": "Zio Stefano's Doughnut",
+          "amount": 3,
+          "priceSingle": 9,
+          "price": 27,
+          "params": {}
+        }
+      ],
+      "id": 6
+    }
+  ],
   "events": [
     {
       "id": 1,
@@ -219,7 +337,10 @@
       "repeat": "daily",
       "duration": 2,
       "ppl": 3,
-      "starters": ["bread", "lemonWater"]
+      "starters": [
+        "bread",
+        "lemonWater"
+      ]
     },
     {
       "id": 3,
@@ -229,7 +350,10 @@
       "repeat": "daily",
       "duration": 2,
       "ppl": 3,
-      "starters": ["bread", "lemonWater"]
+      "starters": [
+        "bread",
+        "lemonWater"
+      ]
     },
     {
       "id": 4,
@@ -249,7 +373,9 @@
       "repeat": "daily",
       "duration": 2,
       "ppl": 3,
-      "starters": ["lemonWater"]
+      "starters": [
+        "lemonWater"
+      ]
     }
   ],
   "bookings": [
@@ -261,7 +387,64 @@
       "repeat": "daily",
       "duration": 2,
       "ppl": 3,
-      "starters": ["lemonWater"]
+      "starters": [
+        "lemonWater"
+      ]
+    },
+    {
+      "date": "2023-09-14",
+      "hour": "12:00",
+      "table": 3,
+      "duration": 1,
+      "ppl": 1,
+      "starters": [],
+      "phone": "",
+      "address": "",
+      "id": 2
+    },
+    {
+      "date": "2023-09-14",
+      "hour": "12:00",
+      "table": 3,
+      "duration": 1,
+      "ppl": 1,
+      "starters": [],
+      "phone": "",
+      "address": "",
+      "id": 3
+    },
+    {
+      "date": "2023-09-28",
+      "hour": "23:00",
+      "table": 3,
+      "duration": 1,
+      "ppl": 1,
+      "starters": [],
+      "phone": "",
+      "address": "",
+      "id": 4
+    },
+    {
+      "date": "2023-09-28",
+      "hour": "12:00",
+      "table": 3,
+      "duration": 1,
+      "ppl": 1,
+      "starters": [],
+      "phone": "",
+      "address": "",
+      "id": 5
+    },
+    {
+      "date": "2023-09-27",
+      "hour": "17:30",
+      "table": 2,
+      "duration": 1,
+      "ppl": 1,
+      "starters": [],
+      "phone": "",
+      "address": "",
+      "id": 6
     }
   ]
 }
