@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home-wrapper {
+  margin: ($base-size * 3.5) auto;
+  padding: ($base-size * 6) ($base-size * 4);
+  background: $color-light;
+  border-bottom: 1px solid lighten($color-dark, 70%);
+  border-radius: $radius;
+  height: 100vh;
+}
+
+.banners {
+  display: flex;
+  flex-wrap: wrap;
+
+  .banner {
+    position: relative;
+    background-color: black;
+    width: 49%;
+    height: 120px;
+    margin: 0.5%;
+    border-radius: $radius;
+
+    h2 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 20px;
+      text-transform: uppercase;
+      color: #fff;
+    }
+  }
+  .banner:last-child {
+    width: 100%;
+    background-color: #ff6b6b;
+  }
+}
