@@ -103,7 +103,7 @@ const app = {
     new Home(homeContainer);
     thisApp.homeDOM = {};
     thisApp.homeDOM.homeBanners =
-      homeContainer.querySelectorAll('.banner.animated');
+      homeContainer.querySelectorAll(select.home.banner);
     for (let banner of thisApp.homeDOM.homeBanners) {
       banner.addEventListener('click', function () {
         const clickedElement = this;
