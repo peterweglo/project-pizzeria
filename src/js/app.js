@@ -98,8 +98,20 @@ const app = {
     new Booking(bookingContainer);
   },
   initHome: function () {
+    const thisApp = this;
     const homeContainer = document.querySelector(select.containerOf.home);
     new Home(homeContainer);
+    thisApp.homeDOM = {};
+    thisApp.homeDOM.homeBanners =
+      homeContainer.querySelectorAll('.banner.animated');
+    for (let banner of thisApp.homeDOM.homeBanners) {
+      banner.addEventListener('click', function () {
+        const clickedElement = this;
+        const id = clickedElement.getAttribute('data');
+        thisApp.activatePage(id);
+        window.location.hash = '#/' + id;
+      });
+    }
   },
 
   init: function () {

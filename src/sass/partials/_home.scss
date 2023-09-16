@@ -53,13 +53,13 @@
 
       span {
         position: absolute;
-        bottom: -60px;
+        bottom: -80px;
         width: 100%;
         text-align: center;
         font-size: 12px;
         font-family: $font-text;
         color: $color-light;
-        transition: 0.2s linear;
+        transition: bottom 0.2s linear;
       }
     }
 

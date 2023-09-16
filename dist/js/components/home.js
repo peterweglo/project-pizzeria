@@ -1,4 +1,4 @@
-import { templates} from '../settings.js';
+import { templates } from '../settings.js';
 
 class Home {
   constructor(element) {
